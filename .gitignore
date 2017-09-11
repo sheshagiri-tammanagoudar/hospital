@@ -12,7 +12,11 @@
 # if you remove the above rule, at least ignore the following:
 
 # User-specific stuff:
-# .idea/workspace.xml
+.idea/workspace.xml
+.idea/hospital.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
 # .idea/tasks.xml
 # .idea/dictionaries
 
