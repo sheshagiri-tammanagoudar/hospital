@@ -1,0 +1,21 @@
+{
+    "global":{
+        "common":"./src/common",
+        "common_lib"   :"./src/common/lib",
+        "common_hospital"         :"./src/common/weyv"
+    },
+    "portal":{
+        "root" : "./src/portal",
+        "build": "./build/portal",
+        "webJS": "portal.min.js",
+        "webCSS"   : "assets/css/portal.css",
+        "webMinCSS": "assets/css/portal.min.css",
+        "angularJS": "lib/angular.all.min.js",
+        "vendorJS" : "lib/vendor.all.min.js",
+        "vendorCSS": "lib/vendor.all.min.css"
+    },
+    "website":{
+        "root" : "./src/website",
+        "build": "./build/website"
+    }
+}
