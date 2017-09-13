@@ -15,7 +15,7 @@ module.exports = function(grunt){
     grunt.config('portal_scripts', [config.portal.vendorJS, config.portal.angularJS, config.portal.webJS]);
 
     grunt.config('website_styles',  ["./common/font-awesome-4.3.0/css/font-awesome.min.css", "website.min.css"]);
-    grunt.config('website_scripts', ["./common/vendor.all.min.js","./common/pdf.js","./common/pdf.worker.js", "./common/angular.all.min.js", "./common/common.min.js", "website.min.js"]);
+    grunt.config('website_scripts', ["./common/vendor.all.min.js", "./common/angular.all.min.js", "./common/common.min.js", "website.min.js"]);
 
     function alias (name, tasks) {
         grunt.registerTask(name, tasks.split(' '));

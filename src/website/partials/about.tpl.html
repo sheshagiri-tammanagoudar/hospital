@@ -1,0 +1,216 @@
+<section id="section-about" ontouchstart="" ng-controller="AboutUsController"><!--Fix for Safari :active in meet team animation-->
+<div class="container-fluid">
+<div class="row feature-1">
+    <div class="row heading-container wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
+        <h2 id="ta-ourStory" >
+            Our Story
+            <hr>
+        </h2>
+    </div>
+    <div class="row subheading-container wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
+        <h3 class="wow fadeIn" style="font-size: 36px">SAI HOSPITAL <br><span class="customfont-light">Where life begins...</span></h3>
+        <p class="customfont-regular">
+            Established in 2013, we have grown to become most popular multi-speciality hospital of Ranebennur.
+            Through our experience acquired over the years we are able to precisely diagnose and treat ailments effectively.
+            We are working to bring high quality facilities offered by private hospitals at the price of government hospitals.
+            If you feel quality health care is expensive, then visit us to feel better without burning a hole in your pocket.
+        </p>
+    </div>
+    <div class="row subheading-container-1 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s" >
+        <div class="text-info-1">
+            <p class="text-left">
+                Inspired and realized by the miracle of life, SAI Hospital’s mission is to bring your bundle of joy to the world in a joyful, hygienic, healthy and safe environment assisted by experienced doctors and dedicated stapp.
+                <br><br>
+                Birth is a most cherished event of life. All parents seek the best for their child at birth and for ever. We endavour to make that aspiration true at minimal possible cost. Give us an opportunity to server you and feel the difference.
+            </p>
+        </div>
+        <div class="text-info-2">
+            <p class="text-left">
+                SAI Hospital believes in the power to bring health care to people that:
+            </p>
+
+            <ul class="feature-details section_heading wow fadeIn" >
+                <li><p class="feature-details">Affordable to the extent that every citizen will be able to utilize the facilities without worrying about the cost.</p></li>
+                <li><p class="feature-details">Provide a safe and hygienic environment to help fast and strong recovery.</p></li>
+                <li><p class="feature-details">Utilize, learn and apply the experience to help the common man afford the high quality service</p></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row subheading-container-3" >
+        <p class="customfont-bold"> Where Life Begins... <sup><span class="customfont-regular" style="font-size: 10px">TM</span></sup></p>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-sm-24 text-center about-team">
+        <div class="about-team-heading">
+            <h2><span class="section_heading wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+                    <span>Meet The Team</span>
+                        <hr>
+                    </span>
+            </h2>
+        </div>
+        <div id="aboutTeamCarousel" class="carousel slide" hospital-carousel>
+            <!-- Wrapper for slides -->
+            <div class="row carousel-inner slide-1" role="listbox">
+                <div class="item active" ng-swipe-left="swipeleft($event, true)" data-slideno="0">
+                    <div class="row slide-details">
+                        <div class="team-headshot text-center" ng-repeat="member in team1">
+                            <div class="ch-item ch-img-{{member.index}}">
+                                <div class="ch-info">
+                                    <h3>FAVORITE SONG</h3>
+                                    <p>{{member.song}}</p>
+                                    <h3>FAVORITE MAGAZINE</h3>
+                                    <p>{{member.book}}</p>
+                                    <h3>FAVORITE CHARITY</h3>
+                                    <p>{{member.charity}}</p>
+                                </div>
+                            </div>
+                            <h3>{{member.name | titlecase}}</h3>
+                            <h4>{{member.title}}</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" ng-swipe-right="swiperight($event, true)" data-slideno="1">
+                    <div class="row slide-details">
+                        <div class="team-headshot text-center" ng-repeat="member in team2">
+                            <div class="ch-item ch-img-{{member.index}}">
+                                <div class="ch-info">
+                                    <h3>FAVORITE SONG</h3>
+                                    <p>{{member.song}}</p>
+                                    <h3>FAVORITE MAGAZINE</h3>
+                                    <p>{{member.book}}</p>
+                                    <h3>FAVORITE CHARITY</h3>
+                                    <p>{{member.charity}}</p>
+                                </div>
+                            </div>
+                            <h3>{{member.name | titlecase}}</h3>
+                            <h4>{{member.title}}</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" ng-swipe-right="swiperight($event, true)" data-slideno="2">
+                    <div class="col-sm-24 slide-details">
+                        <div class="team-headshot text-center" ng-repeat="member in team3">
+                            <div class="ch-item ch-img-{{member.index}}">
+                                <div class="ch-info">
+                                    <h3>FAVORITE SONG</h3>
+                                    <p>{{member.song}}</p>
+                                    <h3>FAVORITE MAGAZINE</h3>
+                                    <p>{{member.book}}</p>
+                                    <h3>FAVORITE CHARITY</h3>
+                                    <p>{{member.charity}}</p>
+                                </div>
+                            </div>
+                            <h3>{{member.name | titlecase}}</h3>
+                            <h4>{{member.title}}</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center" >
+                <ol class="carousel-indicators">
+                    <li data-target="#aboutTeamCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#aboutTeamCarousel" data-slide-to="1"></li>
+                    <li data-target="#aboutTeamCarousel" data-slide-to="2"></li>
+                </ol>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="row divider-line">
+    <div class="about-team">
+        <hr>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-24 text-center about-team">
+        <div class="about-team-heading">
+            <h2><span class="section_heading wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+                         <span>Advisors and Consultants</span>
+                        <hr>
+                        </span>
+            </h2>
+        </div>
+
+        <div id="advisorsCarousel" class="carousel slide" hospital-carousel>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner slide-1" role="listbox" >
+                <div class="item active" ng-swipe-left="swipeleft($event, true)" data-slideno="0">
+                    <div class="row">
+                        <p>EXECUTIVE ADVISORS</p>
+                        <div class="team-headshot text-center" ng-repeat="member in advisors">
+                            <div style="cursor: pointer" class="ch-item ch-img-{{member.index}}">
+                                <div class="ch-info">
+                                    <h3>FAVORITE SONG</h3>
+                                    <p>{{member.song}}</p>
+                                    <h3>FAVORITE MAGAZINE</h3>
+                                    <p>{{member.book}}</p>
+                                    <h3>FAVORITE CHARITY</h3>
+                                    <p>{{member.charity}}</p>
+                                </div>
+                            </div>
+                            <h3>{{member.name | titlecase}}</h3>
+                            <h4>{{member.title}}</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ol class="carousel-indicators">
+                <li data-target="#advisorsCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#advisorsCarousel" data-slide-to="1"></li>
+            </ol>
+
+        </div>
+
+    </div>
+</div>
+
+<div class="row text-center">
+    <div class="col-sm-24 locations" ng-controller="ContactUsController">
+        <div class="row">
+            <br>
+            <br>
+            <h2 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s"><span class="section_heading">
+                    <span>Locations</span>
+                        <hr>
+                    </span>
+            </h2>
+            <br>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-24">
+
+                <ul class="ch-grid">
+                    <li class="col-sm-8 col-lg-offset-3 col-lg-6 wow fadeInLeft" ng-click="openMap('main')"  data-wow-duration="1s" data-wow-delay="0.3s">
+                        <div class="ch-item img-loc-main" ></div>
+                        <h3>PB ROAD</h3>
+                        <p>
+                            RANEBENNUR, HAVERI <br>
+                            KARNATAKA 561115
+                        </p>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-24 col-sm-offset-2 col-sm-20"><br><br><br></div>
+            <div class="col-xs-24">
+                <div class="col-sm-24 col-lg-offset-3 col-lg-18">
+                    <div ng-bind-html="map" id="mapContainer" aria-expanded="false" class="collapse"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</div>
+</section>

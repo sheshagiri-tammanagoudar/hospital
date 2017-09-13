@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="hospital-client-web">
 <head lang="en">
     <!--Searchbots crawling blocker-->
     <meta name="robots" content="noindex">
@@ -17,8 +17,11 @@
     <% website_styles.forEach( function ( file ) { %><link rel="stylesheet" type="text/css" href="<%= file %>" />
     <% }); %>
 </head>
-<body>
- This is a start
+<body ng-init="onAppInit();">
+<div ng-include="'partials/common/sideMenu.html'"></div>
+<div ng-include="'partials/common/header-tpl.html'"></div>
+<div ng-view></div>
+<div ng-include="'partials/common/footer-tpl.html'"></div>
 </body>
 <% website_scripts.forEach( function ( file ) { %><script type="text/javascript" src="<%= file %>"></script>
 <% }); %>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="hospital-client-web">
 <head lang="en">
     <!--Searchbots crawling blocker-->
     <meta name="robots" content="noindex">
@@ -42,15 +42,28 @@
     <script src="/src/common/lib/angular/angular-route/angular-route.js"></script>
     <script src="/src/common/lib/angular/angular-resource/angular-resource.js"></script>
     <script src="/src/common/lib/angular/angular/angular-sanitize.js"></script>
-    <script src="/src/common/lib/angular/angular-facebook/lib/angular-facebook.js"></script>
     <script src="/src/common/lib/angular/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
-    <script src="/src/common/lib/angular/angular-google-plus/dist/angular-google-plus.js"></script>
     <script src="/src/common/lib/angular/angular-local-storage/dist/angular-local-storage.js"></script>
     <script src="/src/common/lib/angular/angular-loading-bar/dist/loading-bar.js"></script>
     <script src="/src/common/lib/angular/angular-touch/angular-touch.js"></script>
 
+    <!-- App specific JS-->
+    <script src="app.js"></script>
+
+    <!-- Directives -->
+    <script src="directives/hospital-carousel.js"></script>
+
+    <!-- Controllers -->
+    <script src="controllers/mainCtrl.js"></script>
+    <script src="controllers/appLaunchCtrl.js"></script>
+    <script src="controllers/aboutUsCtrl.js"></script>
+
+
 </head>
-<body>
- This is a start
+<body ng-init="onAppInit();">
+<div ng-include="'partials/common/sideMenu.html'"></div>
+<div ng-include="'partials/common/header-tpl.html'"></div>
+<div ng-view></div>
+<div ng-include="'partials/common/footer-tpl.html'"></div>
 </body>
 </html>

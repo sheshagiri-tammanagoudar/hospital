@@ -35,7 +35,7 @@ module.exports = {
                 sourceMap: false
             },
             src: [
-                "<%= config.global.common_thirdparty %>/angular/angular/angular.js",
+                "<%= config.global.common_lib %>/angular/angular/angular.js",
                 "<%= config.global.common_lib %>/angular/angular-route/angular-route.js",
                 "<%= config.global.common_lib %>/angular/angular-resource/angular-resource.js",
                 "<%= config.global.common_lib %>/angular/angular/angular-sanitize.js",

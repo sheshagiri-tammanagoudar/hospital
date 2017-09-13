@@ -22,6 +22,7 @@ module.exports = {
             },
             src: [
                 "<%= config.global.common_lib %>/angular/angular/angular.js",
+                "<%= config.global.common_lib %>/angular/angular-route/angular-route.js",
                 "<%= config.global.common_lib %>/angular/angular-bootstrap/ui-bootstrap-tpls.js",
                 "<%= config.global.common_lib %>/angular/angular-ui-router/release/angular-ui-router.js",
                 "<%= config.global.common_lib %>/angular/angular-facebook/lib/angular-facebook.js",
