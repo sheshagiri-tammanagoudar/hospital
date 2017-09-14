@@ -5,6 +5,11 @@
 (function(){
     var clientWebModule = angular.module('hospital-client-web');
     clientWebModule.controller('AppLaunchController',['$scope','$rootScope','$location','$anchorScroll','$timeout','$http','$route',function($scope,$rootScope,$location,$anchorScroll,$timeout,$http,$route){
+        $http.get("/common/data/main.json")
+            .success(function(data) {
+                $rootScope.hospitalName = data.hospitalName;
+                $rootScope.hospitalTagLine = data.hospitalTagLine;
+            });
         $scope.checkcollapsable = function($event)
         {
             if(angular.element('.navbar-collapse').attr('aria-expanded') != "true" )

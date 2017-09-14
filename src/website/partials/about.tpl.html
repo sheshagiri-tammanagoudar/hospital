@@ -9,37 +9,28 @@
         </h2>
     </div>
     <div class="row subheading-container wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
-        <h3 class="wow fadeIn" style="font-size: 36px">SAI HOSPITAL <br><span class="customfont-light">Where life begins...</span></h3>
-        <p class="customfont-regular">
-            Established in 2013, we have grown to become most popular multi-speciality hospital of Ranebennur.
-            Through our experience acquired over the years we are able to precisely diagnose and treat ailments effectively.
-            We are working to bring high quality facilities offered by private hospitals at the price of government hospitals.
-            If you feel quality health care is expensive, then visit us to feel better without burning a hole in your pocket.
-        </p>
+        <h3 class="wow fadeIn" style="font-size: 36px">{{hospitalName}}<br><span class="customfont-light">{{hospitalTagLine}}</span></h3>
+        <p class="customfont-regular">{{introduction}}</p>
     </div>
     <div class="row subheading-container-1 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s" >
         <div class="text-info-1">
             <p class="text-left">
-                Inspired and realized by the miracle of life, SAI Hospital’s mission is to bring your bundle of joy to the world in a joyful, hygienic, healthy and safe environment assisted by experienced doctors and dedicated staff.
-                <br><br>
-                Birth is a most cherished event of life. All parents seek the best for their child at birth and for ever. We endeavour to make that aspiration true at minimal possible cost. Give us an opportunity to server you and feel the difference.
+                <span ng-repeat="subHeading in subHeadings">{{subHeading}}<br><br></span>
             </p>
         </div>
         <div class="text-info-2">
             <p class="text-left">
-                SAI Hospital believes in the power to bring health care to people that:
+                {{missionIntroduction}}
             </p>
 
             <ul class="feature-details section_heading wow fadeIn" >
-                <li><p class="feature-details">Affordable to the extent that every citizen will be able to utilize the facilities without worrying about the cost.</p></li>
-                <li><p class="feature-details">Provide a safe and hygienic environment to help fast and strong recovery.</p></li>
-                <li><p class="feature-details">Utilize, learn and apply the experience to help the common man afford the high quality service</p></li>
+                <li ng-repeat="mission in missions"><p class="feature-details">{{mission}}</p></li>
             </ul>
         </div>
     </div>
 
     <div class="row subheading-container-3" >
-        <p class="customfont-bold"> Where Life Begins... <sup><span class="customfont-regular" style="font-size: 10px">TM</span></sup></p>
+        <p class="customfont-bold">{{hospitalTagLine}}<sup><span class="customfont-regular" style="font-size: 10px">TM</span></sup></p>
     </div>
 </div>
 

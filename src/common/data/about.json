@@ -1,0 +1,31 @@
+{
+    "introduction": "Established in 2013, we have grown to become most popular multi-speciality hospital of Ranebennur. Through our experience acquired over the years we are able to precisely diagnose and treat ailments effectively.We are working to bring high quality facilities offered by private hospitals at the price of government hospitals. If you feel quality health care is expensive, then visit us to feel better without burning a hole in your pocket.",
+    "subHeadings":["Inspired and realized by the miracle of life, SAI Hospital’s mission is to bring your bundle of joy to the world in a joyful, hygienic, healthy and safe environment assisted by experienced doctors and dedicated staff.",
+                        "Birth is a most cherished event of life. All parents seek the best for their child at birth and for ever. We endeavour to make that aspiration true at minimal possible cost. Give us an opportunity to server you and feel the difference."],
+    "mission":{
+        "introduction":"SAI Hospital believes in the power to bring health care to people that:",
+        "missions":["Affordable to the extent that every citizen will be able to utilize the facilities without worrying about the cost.",
+                    "Provide a safe and hygienic environment to help fast and strong recovery.",
+                    "Utilize, learn and apply the experience to help the common man afford the high quality service"]
+    },
+    "team1":[
+        {"index":1,"name":"DR. SUSHMA A SAWKAR","title":"MBBS, MD(OBG)","song":"Fly Me To The Moon","book":"National Geographic","movie":"","charity":"Tech Treehouse"},
+        {"index":2,"name":"DR. ABHINANDAN H SAWKAR","title":"MBBS, MS(OBG)","song":"Fly Me To The Moon","book":"National Geographic","movie":"","charity":"Tech Treehouse"}
+    ],
+    "team2":[
+        {"index":"3","name":"SHESHAGIRI TAMMANAGOUDAR","title":"Sr. Manager, Web Development","song":"Skyfall","book":"India Today","movie":"","charity":"CRY"},
+        {"index":"4","name":"SHRUTHI K MANKANI"," title":"Sr. Manager, Web Development","song":"Skyfall","book":"India Today","movie":"","charity":"CRY"},
+        {"index":"5","name":"SURAJ K MANKANI"," title":"Sr. Manager, Web Development","song":"Skyfall","book":"India Today","movie":"","charity":"CRY"},
+        {"index":"6","name":"DARSH A SAWKAR"," title":"Sr. Manager, Web Development","song":"Skyfall","book":"India Today","movie":"","charity":"CRY"},
+        {"index":"7","name":"KRISHNA L MANKANI"," title":"Sr. Manager, Web Development","song":"Skyfall","book":"India Today","movie":"","charity":"CRY"},
+        {"index":"8","name":"RATNA K MANKANI"," title":"Sr. Manager, Web Development","song":"Skyfall","book":"India Today","movie":"","charity":"CRY"}
+    ],
+    "team3":[
+        {"index":"9","name":"SHESHAGIRI TAMMANAGOUDAR","title":"Sr. Manager, Web Development","song":"Skyfall","book":"India Today","movie":"","charity":"CRY"},
+        {"index":"10","name":"SHRUTHI K MANKANI"," title":"Sr. Manager, Web Development","song":"Skyfall","book":"India Today","movie":"","charity":"CRY"},
+        {"index":"11","name":"SURAJ K MANKANI"," title":"Sr. Manager, Web Development","song":"Skyfall","book":"India Today","movie":"","charity":"CRY"},
+        {"index":"12","name":"DARSH A SAWKAR"," title":"Sr. Manager, Web Development","song":"Skyfall","book":"India Today","movie":"","charity":"CRY"},
+        {"index":"13","name":"KRISHNA L MANKANI"," title":"Sr. Manager, Web Development","song":"Skyfall","book":"India Today","movie":"","charity":"CRY"},
+        {"index":"14","name":"RATNA K MANKANI"," title":"Sr. Manager, Web Development","song":"Skyfall","book":"India Today","movie":"","charity":"CRY"}
+    ]
+}
