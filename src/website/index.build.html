@@ -17,7 +17,7 @@
     <% website_styles.forEach( function ( file ) { %><link rel="stylesheet" type="text/css" href="<%= file %>" />
     <% }); %>
 </head>
-<body ng-init="onAppInit();">
+<body hospital-scroll ng-init="onAppInit();">
 <div ng-include="'partials/common/sideMenu.html'"></div>
 <div ng-include="'partials/common/header-tpl.html'"></div>
 <div ng-view></div>

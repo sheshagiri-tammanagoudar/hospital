@@ -4,7 +4,7 @@
 'use strict';
 (function(){
 
-    var clientWebModule = angular.module('hospital-client-web');
+    var clientWebModule = angular.module('hospital.common.hospital-carousel',[]);
     clientWebModule.directive('hospitalCarousel',['$interval', function($interval) {
         return {
             restrict: 'A',

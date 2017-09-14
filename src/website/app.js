@@ -10,8 +10,10 @@
         ,'ngSanitize'
         ,'ui.bootstrap'
         ,'LocalStorageModule'
-        , 'angular-loading-bar'
-        , 'ngTouch'
+        ,'angular-loading-bar'
+        ,'ngTouch'
+        ,'hospital.common.hospital-scroll'
+        ,'hospital.common.hospital-carousel'
     ]);
     clientWebModule.config(['$httpProvider'
         ,'$routeProvider'
