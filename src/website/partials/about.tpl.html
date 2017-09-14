@@ -1,6 +1,7 @@
 <section id="section-about" ontouchstart="" ng-controller="AboutUsController"><!--Fix for Safari :active in meet team animation-->
 <div class="container-fluid">
 <div class="row feature-1">
+    <div class="layer-about">
     <div class="row heading-container wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
         <h2 id="ta-ourStory" >
             Our Story
@@ -19,9 +20,9 @@
     <div class="row subheading-container-1 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s" >
         <div class="text-info-1">
             <p class="text-left">
-                Inspired and realized by the miracle of life, SAI Hospital’s mission is to bring your bundle of joy to the world in a joyful, hygienic, healthy and safe environment assisted by experienced doctors and dedicated stapp.
+                Inspired and realized by the miracle of life, SAI Hospital’s mission is to bring your bundle of joy to the world in a joyful, hygienic, healthy and safe environment assisted by experienced doctors and dedicated staff.
                 <br><br>
-                Birth is a most cherished event of life. All parents seek the best for their child at birth and for ever. We endavour to make that aspiration true at minimal possible cost. Give us an opportunity to server you and feel the difference.
+                Birth is a most cherished event of life. All parents seek the best for their child at birth and for ever. We endeavour to make that aspiration true at minimal possible cost. Give us an opportunity to server you and feel the difference.
             </p>
         </div>
         <div class="text-info-2">
@@ -68,7 +69,7 @@
                                     <p>{{member.charity}}</p>
                                 </div>
                             </div>
-                            <h3>{{member.name | titlecase}}</h3>
+                            <h3>{{member.name}}</h3>
                             <h4>{{member.title}}</h4>
                         </div>
                     </div>
@@ -86,7 +87,7 @@
                                     <p>{{member.charity}}</p>
                                 </div>
                             </div>
-                            <h3>{{member.name | titlecase}}</h3>
+                            <h3>{{member.name}}</h3>
                             <h4>{{member.title}}</h4>
                         </div>
                     </div>
@@ -104,7 +105,7 @@
                                     <p>{{member.charity}}</p>
                                 </div>
                             </div>
-                            <h3>{{member.name | titlecase}}</h3>
+                            <h3>{{member.name}}</h3>
                             <h4>{{member.title}}</h4>
                         </div>
                     </div>
@@ -117,54 +118,6 @@
                     <li data-target="#aboutTeamCarousel" data-slide-to="2"></li>
                 </ol>
             </div>
-        </div>
-
-    </div>
-</div>
-<div class="row divider-line">
-    <div class="about-team">
-        <hr>
-    </div>
-</div>
-<div class="row">
-    <div class="col-sm-24 text-center about-team">
-        <div class="about-team-heading">
-            <h2><span class="section_heading wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-                         <span>Advisors and Consultants</span>
-                        <hr>
-                        </span>
-            </h2>
-        </div>
-
-        <div id="advisorsCarousel" class="carousel slide" hospital-carousel>
-
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner slide-1" role="listbox" >
-                <div class="item active" ng-swipe-left="swipeleft($event, true)" data-slideno="0">
-                    <div class="row">
-                        <p>EXECUTIVE ADVISORS</p>
-                        <div class="team-headshot text-center" ng-repeat="member in advisors">
-                            <div style="cursor: pointer" class="ch-item ch-img-{{member.index}}">
-                                <div class="ch-info">
-                                    <h3>FAVORITE SONG</h3>
-                                    <p>{{member.song}}</p>
-                                    <h3>FAVORITE MAGAZINE</h3>
-                                    <p>{{member.book}}</p>
-                                    <h3>FAVORITE CHARITY</h3>
-                                    <p>{{member.charity}}</p>
-                                </div>
-                            </div>
-                            <h3>{{member.name | titlecase}}</h3>
-                            <h4>{{member.title}}</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <ol class="carousel-indicators">
-                <li data-target="#advisorsCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#advisorsCarousel" data-slide-to="1"></li>
-            </ol>
-
         </div>
 
     </div>
@@ -185,9 +138,8 @@
 
         <div class="row">
             <div class="col-sm-24">
-
                 <ul class="ch-grid">
-                    <li class="col-sm-8 col-lg-offset-3 col-lg-6 wow fadeInLeft" ng-click="openMap('main')"  data-wow-duration="1s" data-wow-delay="0.3s">
+                    <li class="wow fadeInLeft" ng-click="openMap('main')"  data-wow-duration="1s" data-wow-delay="0.3s">
                         <div class="ch-item img-loc-main" ></div>
                         <h3>PB ROAD</h3>
                         <p>
@@ -199,17 +151,8 @@
                 </ul>
             </div>
         </div>
-
-        <div class="row">
-            <div class="col-xs-24 col-sm-offset-2 col-sm-20"><br><br><br></div>
-            <div class="col-xs-24">
-                <div class="col-sm-24 col-lg-offset-3 col-lg-18">
-                    <div ng-bind-html="map" id="mapContainer" aria-expanded="false" class="collapse"></div>
-                </div>
-            </div>
-        </div>
-
     </div>
+</div>
 </div>
 
 </div>

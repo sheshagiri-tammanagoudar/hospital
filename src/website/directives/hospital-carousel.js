@@ -10,10 +10,10 @@
             restrict: 'A',
             link: function(scope, element, attrs) {
                 var interval;
-                if(!!attrs.weyvInterval) {
+                if(!!attrs.hospitalInterval) {
                     interval=$interval(function () {
                         element.carousel('next');
-                    }, attrs.weyvInterval);
+                    }, attrs.hospitalInterval);
                 }
 
                 element.on('slid.bs.carousel',function(){
