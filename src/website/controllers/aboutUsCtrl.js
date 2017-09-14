@@ -17,6 +17,7 @@
             .success(function(data) {
                 $scope.introduction = data.introduction;
                 $scope.subHeadings = data.subHeadings;
+                $scope.locations = data.locations;
                 $scope.missionIntroduction = data.mission.introduction;
                 $scope.missions = data.mission.missions;
                 $scope.team1 = data.team1;

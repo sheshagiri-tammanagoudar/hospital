@@ -2,6 +2,14 @@
     "introduction": "Established in 2013, we have grown to become most popular multi-speciality hospital of Ranebennur. Through our experience acquired over the years we are able to precisely diagnose and treat ailments effectively.We are working to bring high quality facilities offered by private hospitals at the price of government hospitals. If you feel quality health care is expensive, then visit us to feel better without burning a hole in your pocket.",
     "subHeadings":["Inspired and realized by the miracle of life, SAI Hospital’s mission is to bring your bundle of joy to the world in a joyful, hygienic, healthy and safe environment assisted by experienced doctors and dedicated staff.",
                         "Birth is a most cherished event of life. All parents seek the best for their child at birth and for ever. We endeavour to make that aspiration true at minimal possible cost. Give us an opportunity to server you and feel the difference."],
+    "locations":[
+        {"address":
+            {
+            "location":"PB ROAD",
+            "lines":["RANEBENNUR, HAVERI","KARNATAKA 581115"]
+            }
+        }
+    ],
     "mission":{
         "introduction":"SAI Hospital believes in the power to bring health care to people that:",
         "missions":["Affordable to the extent that every citizen will be able to utilize the facilities without worrying about the cost.",

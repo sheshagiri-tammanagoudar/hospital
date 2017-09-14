@@ -120,7 +120,7 @@
             <br>
             <br>
             <h2 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s"><span class="section_heading">
-                    <span>Locations</span>
+                    <span>Location</span>
                         <hr>
                     </span>
             </h2>
@@ -130,15 +130,13 @@
         <div class="row">
             <div class="col-sm-24">
                 <ul class="ch-grid">
-                    <li class="wow fadeInLeft" ng-click="openMap('main')"  data-wow-duration="1s" data-wow-delay="0.3s">
+                    <li ng-repeat="location in locations" class="wow fadeInLeft" ng-click="openMap('main')"  data-wow-duration="1s" data-wow-delay="0.3s">
                         <div class="ch-item img-loc-main" ></div>
-                        <h3>PB ROAD</h3>
+                        <h3>{{location.address.location}}</h3>
                         <p>
-                            RANEBENNUR, HAVERI <br>
-                            KARNATAKA 561115
+                            <span ng-repeat="line in location.address.lines">{{line}}<br></span>
                         </p>
                     </li>
-
                 </ul>
             </div>
         </div>
