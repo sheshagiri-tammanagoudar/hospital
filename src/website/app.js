@@ -64,6 +64,13 @@
             $(document.body).animate({ scrollTop: $("#"+section).offset().top-90 });
         };
 
+        $rootScope.showTab = function(id){
+            $('#'+id).parent().children().removeClass('active');
+            $('#'+id).addClass('active');
+            $('#'+'img_'+id).parent().children().addClass('hide');
+            $('#'+'img_'+id).removeClass('hide');
+        }
+
     }]).factory('popup',['$rootScope','$location',function($rootScope){
         var popup = {};
         popup.show = function(line1,line2,popupType){

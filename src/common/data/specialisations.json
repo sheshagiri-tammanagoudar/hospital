@@ -1,0 +1,26 @@
+{
+    "introduction":"We offer a wide range of health services to take care of your overall health.",
+    "list":[
+        {
+            "index":"1",
+            "name":"Pregnancy and Child Birth",
+            "description":[
+                "We offer best care for carrying mothers.",
+                "Our experienced doctors listen to all your grievances and give timely and helpful suggestions.",
+                "We have best facilities to ensure your child birth happens in a safe, hygienic and healthy environment."
+            ]
+        },
+        {
+            "index":"2",
+            "name":"General Surgery",
+            "description":[
+            ]
+        },
+        {
+            "index":"3",
+            "name":"General Physician",
+            "description":[
+            ]
+        }
+    ]
+}

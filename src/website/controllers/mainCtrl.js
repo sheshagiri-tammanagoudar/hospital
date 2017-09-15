@@ -6,8 +6,12 @@
     var clientWebModule = angular.module('hospital-client-web');
     clientWebModule.controller('MainCtrl',['$scope','$rootScope','$location','$window','$http',
         function ($scope,$rootScope,$location,$window,$http) {
-
-
+            $scope.specialisationIndex = 1;
+            $http.get("/common/data/specialisations.json")
+                .success(function(data) {
+                    $scope.introduction = $scope.introduction;
+                    $scope.specialisationslist = data.list;
+                });
             $scope.swipeleft = function($event, show){
 
                 $("#myCarousel").carousel('next');

@@ -1,52 +1,97 @@
 <div class="container-fluid  " style="margin-top:-80px">
-<!-- SECTION FADEBACK -->
-<section id="slider"  class="parallax" data-stellar-background-ratio="0.5">
-    <div class="row">
-        <div class="col-sm-24 wow fadeIn animated"  id="section-main" style="padding:0px;">
+    <!-- SECTION FADEBACK -->
+    <section id="slider"  class="parallax" data-stellar-background-ratio="0.5">
+        <div class="row">
+            <div class="col-sm-24 wow fadeIn animated"  id="section-main" style="padding:0px;">
 
-            <!-- Bootstrap Carousel -->
-            <div id="myCarousel" class="carousel slide carousel-fade" hospital-interval="3000" data-ride="carousel" hospital-carousel ng-swipe-right="swiperight($event, true)"  ng-swipe-left="swipeleft($event, true)">
+                <!-- Bootstrap Carousel -->
+                <div id="myCarousel" class="carousel slide carousel-fade" hospital-interval="3000" data-ride="carousel" hospital-carousel ng-swipe-right="swiperight($event, true)"  ng-swipe-left="swipeleft($event, true)">
 
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner" role="listbox">
-                    <div class="item active image1" data-slideno="0">
-                        <div class="layer">
-                            <div class="carousel-inner-overlay"></div>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active image1" data-slideno="0">
+                            <div class="layer">
+                                <div class="carousel-inner-overlay"></div>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="item image2" data-slideno="1">
-                        <div class="layer">
-                            <div class="carousel-inner-overlay"></div>
+                        <div class="item image2" data-slideno="1">
+                            <div class="layer">
+                                <div class="carousel-inner-overlay"></div>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="item image3" data-slideno="2">
-                        <div class="layer">
-                            <div class="carousel-inner-overlay"></div>
+                        <div class="item image3" data-slideno="2">
+                            <div class="layer">
+                                <div class="carousel-inner-overlay"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div>
+                        <div class="col-xs-24 overlay text-center home-line" style="left: 0px;">
+                            <div class="text-center home-line1 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
+                                <h2 class="customfont-bold text-center" style="font-size: 50px;color:#0db4fa">
+                                    {{hospitalName}}
+                                </h2>
+                            </div>
+                            <div class="text-center home-line2 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
+                                <span class="customfont-semi-bold text-center">
+                                    {{hospitalTagLine}}
+                                </span>
+                            </div>
                         </div>
                     </div>
 
                 </div>
-                <div>
-                    <div class="col-xs-24 overlay text-center home-line" style="left: 0px;">
-                        <div class="text-center home-line1 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
-                            <h2 class="customfont-bold text-center" style="font-size: 50px;color:#0db4fa">
-                                {{hospitalName}}
-                            </h2>
-                        </div>
-                        <div class="text-center home-line2 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
-                            <span class="customfont-semi-bold text-center">
-                                {{hospitalTagLine}}
-                            </span>
-                        </div>
-                    </div>
-                </div>
-
+                <!-- End of Bootstrap Carousel -->
             </div>
-            <!-- End of Bootstrap Carousel -->
         </div>
-    </div>
-</section>
-<!-- /END SECTION FADEBACK -->
+    </section>
+    <!-- /END SECTION FADEBACK -->
+
+    <!-- HOW IT WORKS-->
+    <section id="section-specialisations">
+        <div class="specialisation-list">
+            <div class="bg-overlay-specialisation-list">
+                <div class="container-fluid">
+                    <div class="row info-container">
+                        <div class="col-sm-24 header-title text-center wow fadeInUp" data-wow-duration="1s" >
+                            <h2>SPECIALISATIONS<hr/></h2>
+                            <h3>{{introduction}}</h3>
+                        </div>
+                    </div>
+                    <div class="row row-eq-height image-container">
+                        <!-- FEATURE LIST IMAGE -->
+                        <div class="specialisation-list-image text-center" >
+                            <img id="img_specialisation_{{specialisation.index}}" ng-repeat="specialisation in specialisationslist" src="/common/assets/img/specialisations/{{specialisation.index}}.jpg"/>
+                        </div><!-- /END FEATURE LIST IMAGE -->
+                        <!-- FEATURE LLIST RIGHT -->
+                        <div class="specialisations-tabs wow fadeInUp" data-wow-duration="1s">
+                            <div class="" style="width: 100%">
+                                <!-- Nav tabs -->
+                                <ul class="nav nav-tabs" id="hospitaltabs" role="tablist">
+                                    <li ng-repeat="specialisation in specialisationslist" role="presentation" class="{{specialisation.index==1?'active':''}}" ng-click="showTab('specialisation_'+specialisation.index)">
+                                        <div class="signup"><div class="icon"/> </div>
+                                        <a class="customfont-regular {{specialisation.index==1?'active':''}}" id="specialisation{{specialisation.index}}" aria-controls="specialisation_{{specialisation.index}}" role="tab" data-toggle="tab">{{specialisation.name}}<hr class="active" style="width: 100px;"></a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Tab panes -->
+                            <div class="tab-content" id="hospitaltabContent" >
+                                <div ng-repeat="specialisation in specialisationslist" role="tabpanel" class="tab-pane  {{specialisation.index==1?'active':''}}" id="specialisation_{{specialisation.index}}">
+                                    <p class="customfont-bold head1" id="ta-signUpText">{{specialisation.name}}</p>
+                                    <p ng-repeat="descriptionLine in specialisation.description" class="customfont-regular head2"> {{descriptionLine}}</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- /END FEATURE LLIST RIGHT -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- / END HOW IT WORKS -->
 </div>

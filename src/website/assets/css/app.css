@@ -141,15 +141,15 @@ body{
     color:#666666;
 }
 
-.weyv-payment-error{
+.hospital-payment-error{
  padding:2px !important;
     letter-spacing: 0px !important;
 }
-.weyv-payment-error div{
+.hospital-payment-error div{
     padding:2px !important;
     letter-spacing: 0px !important;
 }
-.weyv-payment-error.subscription,.weyv-payment-error.subscription div{
+.hospital-payment-error.subscription,.hospital-payment-error.subscription div{
     font-family: proxima_nova_ltsemibold !important;
     font-size: 13px !important;
     color: #990000 !important;
@@ -158,7 +158,7 @@ body{
     float: left !important;
     background-color:#F7F7F7;
 }
-.weyv-payment-error.subscription.payment,.weyv-payment-error.subscription.payment div{
+.hospital-payment-error.subscription.payment,.hospital-payment-error.subscription.payment div{
     background-color:#ffffff !important;
 }
 
@@ -1353,7 +1353,7 @@ Slider
     width :100%;
 }
 
-#section-how-it-works .feature-list .it-works-tabs .nav-tabs{
+#section-specialisations .specialisation-list .specialisations-tabs .nav-tabs{
     height: 62px;
 }
 
@@ -1497,7 +1497,7 @@ Slider
         font-size: 20px;
         color: #ffffff !important;
     }
-    .it-works-tabs ul>li{
+    .specialisations-tabs ul>li{
         font-size: 10px !important;
     }
 
@@ -1528,27 +1528,23 @@ Slider
         height: 32px;
     }
 
-    #section-how-it-works .info-container{
+    #section-specialisations .info-container{
         width: 100%;
     }
 
-    #section-how-it-works .feature-list .image-container{
+    #section-specialisations .specialisation-list .image-container{
         overflow: hidden;
         width: 35%;
     }
 
-    #section-how-it-works .feature-list .feature-list-image img#img1 {
-        position: relative;
-        width:80%;
-    }
-    #section-how-it-works .feature-list .feature-list-image img#img2 {
-        position: absolute;
-        top: 15%;
-        left: 34%;
-        width: 32%;
+    #section-specialisations .specialisation-list .specialisation-list-image img{
+        height:100%;
+        width:100%;
+        object-fit:cover;
+        border-radius: 15px;
     }
 
-    #section-how-it-works .it-works-tabs ul li{
+    #section-specialisations .specialisations-tabs ul li{
         padding-right: 70px;
         left: 7%;
     }
@@ -1792,16 +1788,16 @@ Slider
         font-size: 20px;
         color: #ffffff !important;
     }
-    #section-how-it-works .header-title h2{
+    #section-specialisations .header-title h2{
         font-size: 20px;
     }
-    #section-how-it-works .header-title h3{
+    #section-specialisations .header-title h3{
         font-size: 14px;
     }
     #section-feature .header-title h2{
         font-size : 35px;
     }
-    .it-works-tabs ul>li{
+    .specialisations-tabs ul>li{
         font-size: 11px !important;
     }
 
@@ -1832,26 +1828,22 @@ Slider
         height: 32px;
     }
 
-    #section-how-it-works .header-title h2{
+    #section-specialisations .header-title h2{
         font-size: 27px !important;
     }
-    #section-how-it-works .feature-list .image-container{
+    #section-specialisations .specialisation-list .image-container{
         overflow: hidden;
         width: 35%;
     }
 
-    #section-how-it-works .feature-list .feature-list-image img#img1 {
-        position: relative;
-        width:80%;
-    }
-    #section-how-it-works .feature-list .feature-list-image img#img2 {
-        position: absolute;
-        top: 15%;
-        left: 34%;
-        width: 32%;
+    #section-specialisations .specialisation-list .specialisation-list-image img{
+        height:100%;
+        width:100%;
+        object-fit:cover;
+        border-radius: 15px;
     }
 
-    #section-how-it-works .it-works-tabs ul li{
+    #section-specialisations .specialisations-tabs ul li{
         padding-right: 70px;
         left: 7%;
     }
@@ -2017,7 +2009,7 @@ Slider
         margin-top: 15%;
     }
 
-    #section-how-it-works .feature-list .it-works-tabs .nav-tabs li{
+    #section-specialisations .specialisation-list .specialisations-tabs .nav-tabs li{
         left: 0%;
         padding-right: 3%;
     }
@@ -2050,13 +2042,13 @@ Slider
         font-size: 26px;
         color: #ffffff !important;
     }
-    #section-how-it-works .header-title h2{
+    #section-specialisations .header-title h2{
         font-size: 20px;
     }
-    #section-how-it-works .header-title h3{
+    #section-specialisations .header-title h3{
         font-size: 14px;
     }
-    .it-works-tabs ul>li{
+    .specialisations-tabs ul>li{
         font-size: 11px !important;
     }
     #myCarousel .home-line{
@@ -2070,7 +2062,7 @@ Slider
     #myCarousel .home-line2{
         padding-top: 25px;
     }
-    #section-how-it-works{
+    #section-specialisations{
         padding: 25px 0;
     }
     #section-feature .feature-2{
@@ -2098,23 +2090,19 @@ Slider
         height: 32px;
     }
 
-    #section-how-it-works .feature-list .image-container{
+    #section-specialisations .specialisation-list .image-container{
         height: 366px;
         width: 35%;
     }
 
-    #section-how-it-works .feature-list .feature-list-image img#img1 {
-        position: relative;
-        width:80%;
-    }
-    #section-how-it-works .feature-list .feature-list-image img#img2 {
-        position: absolute;
-        top: 15%;
-        left: 34%;
-        width: 32%;
+    #section-specialisations .specialisation-list .specialisation-list-image img{
+        height:100%;
+        width:100%;
+        object-fit:cover;
+        border-radius: 15px;
     }
 
-    #section-how-it-works .it-works-tabs ul li{
+    #section-specialisations .specialisations-tabs ul li{
         padding-right: 70px;
         left: 7%;
     }
@@ -2328,32 +2316,26 @@ Slider
         height: 32px;
     }
 
-    #section-how-it-works .feature-list .image-container{
+    #section-specialisations .specialisation-list .image-container{
         overflow: hidden;
         width: 35%;
         margin: auto;
         padding-top: 1%;
     }
 
-    #section-how-it-works .feature-list .feature-list-image img#img1 {
-        position: relative;
-        width:80%;
-        left: 0% !important;
+    #section-specialisations .specialisation-list .specialisation-list-image img{
+        height:100%;
+        width:100%;
+        object-fit:cover;
+        border-radius: 15px;
     }
-    #section-how-it-works .feature-list .feature-list-image img#img2 {
-        position: absolute;
-        top: 15%;
-        left: 19%;
-        width: 62%;
-        height: 100%;
-    }
-    #section-how-it-works .it-works-tabs{
+    #section-specialisations .specialisations-tabs{
         margin-left: 0px !important;
     }
-    #section-how-it-works .feature-list {
+    #section-specialisations .specialisation-list {
         padding: 30px;
     }
-    #section-how-it-works .it-works-tabs ul li{
+    #section-specialisations .specialisations-tabs ul li{
         padding-right: 32px;
         left: 7%;
     }
@@ -2529,7 +2511,7 @@ Slider
 }
 
 @media only screen and (max-width: 900px) and (min-width: 760px){
-    #section-how-it-works .feature-list{
+    #section-specialisations .specialisation-list{
         padding: 0;
     }
 }
@@ -2620,26 +2602,22 @@ Slider
         height: 32px;
     }
 
-    #section-how-it-works .feature-list .image-container{
+    #section-specialisations .specialisation-list .image-container{
         max-height: 400px;
         overflow: hidden;
         width: 35%;
         margin-top: 8%;
     }
 
-    #section-how-it-works .feature-list .feature-list-image img#img1 {
-        position: relative;
-        width:92%;
-    }
-    #section-how-it-works .feature-list .feature-list-image img#img2 {
-        position: absolute;
-        top: 15%;
-        left: 34%;
-        width: 32%;
+    #section-specialisations .specialisation-list .specialisation-list-image img{
+        height:100%;
+        width:100%;
+        object-fit:cover;
+        border-radius: 15px;
     }
 
 
-    #section-how-it-works .it-works-tabs ul li{
+    #section-specialisations .specialisations-tabs ul li{
         padding-right: 2% !important;
         left: 0px;
     }
@@ -2796,43 +2774,43 @@ HOW IT WORKS
 =======================================*/
 /* === SECTION HOW IT WORKS  === */
 
-#section-how-it-works{
+#section-specialisations{
     /* height: 725px; */
     margin:0px;
     padding:0px;
 }
 
-#section-how-it-works .info-container{
+#section-specialisations .info-container{
     padding-top: 2%;
     width: 65%;
     margin: auto;
 }
 
-#section-how-it-works .header-title {
+#section-specialisations .header-title {
     font-family: proxima_nova_rgbold;
     color: #333333;
 }
 
-#section-how-it-works .header-title h2{
+#section-specialisations .header-title h2{
     letter-spacing: 1px;
     line-height: normal;
     font-size: 60px;
     display: inline-block;
 }
-#section-how-it-works .header-title hr{
+#section-specialisations .header-title hr{
     margin-left: 10px;
     margin-right: 10px;
     border-color: #0db4fa;
 }
 
 
-#section-how-it-works .header-title h3{
+#section-specialisations .header-title h3{
     letter-spacing: 1px;
     font-size: 20px;
     line-height: 30px;
 }
 
-#section-how-it-works .feature-list .bg-overlay-feature-list {
+#section-specialisations .specialisation-list .bg-overlay-specialisation-list {
     background-color: #FFFFFF;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -2840,31 +2818,31 @@ HOW IT WORKS
     background-size: cover;
 }
 
-#section-how-it-works .feature-list .features{
+#section-specialisations .specialisation-list .features{
     height: 240px;
 }
 
-#section-how-it-works .feature-list .image-container{
+#section-specialisations .specialisation-list .image-container{
    width: 90%;
    margin: auto;
 }
-#section-how-it-works .feature-list-left, .feature-list-right{
+#section-specialisations .specialisation-list-left, .feature-list-right{
     margin-top: 20px;
 }
-#section-how-it-works .feature-list-left .feature-list-detail {
+#section-specialisations .specialisation-list-left .feature-list-detail {
     float: left;
     text-align: right;
     margin-bottom: 10px;
 }
 
-#section-how-it-works .feature-list-right .feature-list-detail {
+#section-specialisations .specialisation-list-right .feature-list-detail {
     float: right;
     text-align: left;
     margin-bottom: 10px;
 }
 
 
-#section-how-it-works .feature-list-detail h3{
+#section-specialisations .specialisation-list-detail h3{
     font-size: 36px;
     padding:0px;
     margin-bottom: 25px;
@@ -2874,7 +2852,7 @@ HOW IT WORKS
     font-family: proxima_nova_rgbold;
 }
 
-#section-how-it-works .feature-list-detail p{
+#section-specialisations .specialisation-list-detail p{
     font-size: 15px;
     letter-spacing: 1px;
     color:#333333;
@@ -2883,107 +2861,113 @@ HOW IT WORKS
     max-width: 360px;
 }
 
-#section-how-it-works .it-works-tabs ul li{
+#section-specialisations .specialisations-tabs ul li{
     padding-right: 70px;
     cursor: pointer;
     color: #333333;
 }
-#section-how-it-works .it-works-tabs ul>li a{
+#section-specialisations .specialisations-tabs ul>li a{
     font-size: 13px;
 }
-#section-how-it-works .it-works-tabs ul>li a:hover{
+#section-specialisations .specialisations-tabs ul>li a:hover{
     background: #ffffff !important;
 }
 
-#section-how-it-works .it-works-tabs ul li>div{
+#section-specialisations .specialisations-tabs ul li>div{
     height: 23px;
     display: flex;
     margin: 0 auto;
 }
-#section-how-it-works .it-works-tabs ul li>div .icon{
+#section-specialisations .specialisations-tabs ul li>div .icon{
     width: 26px;
     height: 22px;
     margin: auto;
     text-align: center;
 }
 
-#section-how-it-works .it-works-tabs ul li .signup .icon{
+#section-specialisations .specialisations-tabs ul li .signup .icon{
     background-image: url("../img/how-weyv-works/sign-up-inactive.png");
     background-repeat: no-repeat;
     background-position: center;
 
 }
-#section-how-it-works .it-works-tabs ul li.active .signup .icon, #section-how-it-works .it-works-tabs ul li:hover .signup .icon {
+#section-specialisations .specialisations-tabs ul li.active .signup .icon, #section-specialisations .specialisations-tabs ul li:hover .signup .icon {
     background-image: url("../img/how-weyv-works/sign-up-active.png");
     background-repeat: no-repeat;
 }
 
 
-#section-how-it-works .it-works-tabs ul li .listen .icon{
+#section-specialisations .specialisations-tabs ul li .listen .icon{
     background-image: url("../img/how-weyv-works/listen-read-icon-inactive.png");
     background-repeat: no-repeat;
 }
-#section-how-it-works .it-works-tabs ul li.active .listen .icon, #section-how-it-works .it-works-tabs ul li:hover .listen .icon{
+#section-specialisations .specialisations-tabs ul li.active .listen .icon, #section-specialisations .specialisations-tabs ul li:hover .listen .icon{
     background-image: url("../img/how-weyv-works/listen-read-icon-active.png");
     background-repeat: no-repeat;
 }
 
-#section-how-it-works .it-works-tabs ul li .download .icon{
+#section-specialisations .specialisations-tabs ul li .download .icon{
     background-image: url("../img/how-weyv-works/download_inactive.png");
     background-repeat: no-repeat;
 }
-#section-how-it-works .it-works-tabs ul li.active .download .icon, #section-how-it-works .it-works-tabs ul li:hover .download .icon{
+#section-specialisations .specialisations-tabs ul li.active .download .icon, #section-specialisations .specialisations-tabs ul li:hover .download .icon{
     background-image: url("../img/how-weyv-works/download_active.png");
     background-repeat: no-repeat;
 }
 
-#section-how-it-works .it-works-tabs ul li .share .icon{
+#section-specialisations .specialisations-tabs ul li .share .icon{
     background-image: url("../img/how-weyv-works/share-icon-inactive.png");
     background-repeat: no-repeat;
 }
-#section-how-it-works .it-works-tabs ul li.active .share .icon, #section-how-it-works .it-works-tabs ul li:hover .share .icon{
+#section-specialisations .specialisations-tabs ul li.active .share .icon, #section-specialisations .specialisations-tabs ul li:hover .share .icon{
     background-image: url("../img/how-weyv-works/share-active.png");
     background-repeat: no-repeat;
 }
 
 
-#section-how-it-works .it-works-tabs #weyvtabContent div{
+#section-specialisations .specialisations-tabs #hospitaltabContent div{
     padding-top: 40px;
     width: 88%
 }
 
-#section-how-it-works .it-works-tabs #weyvtabContent .head1{
+#section-specialisations .specialisations-tabs #hospitaltabContent .head1{
     font-size: 20px;
     color: #0db4fa;
     max-width: 286px;
     margin-top:0px;
 }
-#section-how-it-works .it-works-tabs #weyvtabContent .head2{
+#section-specialisations .specialisations-tabs #hospitaltabContent .head2{
     font-size: 18px;
     line-height: normal;
     margin: 2% 0% 3% 0%;
 }
-#section-how-it-works .feature-list .feature-list-image {
+#section-specialisations .specialisation-list .specialisation-list-image {
     height: 366px;
     margin: auto;
     width: 20%;
     float: left;
     position: relative;
 }
+#section-specialisations .specialisation-list .specialisation-list-image img{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+    border-radius: 15px;
+}
 
-#section-how-it-works .feature-list .it-works-tabs{
+#section-specialisations .specialisation-list .specialisations-tabs{
     margin-left: 90px;
     width: 70%;
     float: left;
 }
-#section-how-it-works .feature-list .it-works-tabs a{
+#section-specialisations .specialisation-list .specialisations-tabs a{
     border : none !important;
     line-height: normal;
 }
-.it-works-tabs li hr{
+.specialisations-tabs li hr{
     display : none;
 }
-.it-works-tabs li.active hr.active{
+.specialisations-tabs li.active hr.active{
     display : block;
     height : 1px;
     background: #32B0EE;
@@ -2992,18 +2976,14 @@ HOW IT WORKS
     position: relative;
     top : -10px;
 }
-#section-how-it-works .feature-list .it-works-tabs .tab-content{
+#section-specialisations .specialisation-list .specialisations-tabs .tab-content{
     padding-left: 15px;
 }
-#section-how-it-works .feature-list .feature-list-image img#img1 {
-    position: relative;
+#section-specialisations .specialisation-list .specialisation-list-image img{
+    height:100%;
     width:100%;
-}
-#section-how-it-works .feature-list .feature-list-image img#img2 {
-    position: absolute;
-    top: 19%;
-    left: 6%;
-    width: 88%;
+    object-fit:cover;
+    border-radius: 15px;
 }
 
 @media (min-width: 768px ) and (max-width: 1009px) {
@@ -3016,35 +2996,29 @@ HOW IT WORKS
 
 
 
-    #section-how-it-works .feature-list .feature-list-image img#img1 {
-        position: relative;
+    #section-specialisations .specialisation-list .specialisation-list-image img{
+        height:100%;
         width:100%;
-        left: 0%;
-    }
-    #section-how-it-works .feature-list .feature-list-image img#img2 {
-        position: absolute;
-        top: 9%;
-        left: 6%;
-        width: 88%;
-        height: auto;;
+        object-fit:cover;
+        border-radius: 15px;
     }
 
-    /*#section-how-it-works .it-works-tabs ul li{
+    /*#section-specialisations .specialisations-tabs ul li{
         padding-right: 40px;
         left: 7%;
         float: left;
     }*/
 
-    #section-how-it-works .feature-list .it-works-tabs .nav-tabs{
+    #section-specialisations .specialisation-list .specialisations-tabs .nav-tabs{
         padding-right: 0%;
     }
 
-    #section-how-it-works .feature-list .it-works-tabs .nav-tabs li{
+    #section-specialisations .specialisation-list .specialisations-tabs .nav-tabs li{
         left: 0%;
         padding-right: 0%;
     }
 
-    #section-how-it-works .info-container{
+    #section-specialisations .info-container{
         width: 87%;
     }
 
@@ -3075,7 +3049,7 @@ HOW IT WORKS
         letter-spacing: 1px;
     }
 
-    #section-how-it-works .feature-list .image-container{
+    #section-specialisations .specialisation-list .image-container{
         width: 90%;
     }
 
@@ -3185,17 +3159,17 @@ HOW IT WORKS
 
 @media (max-width: 767px) {
 
-    #section-how-it-works .info-container{
+    #section-specialisations .info-container{
         width: 100%;
     }
 
-    #section-how-it-works .feature-list .image-container{
+    #section-specialisations .specialisation-list .image-container{
         width: 100%;
         margin: auto;
         padding: 2%;
     }
 
-    #section-how-it-works .feature-list .feature-list-image{
+    #section-specialisations .specialisation-list .specialisation-list-image{
         margin: auto;
         width: 100%;
         /* float: left; */
@@ -3204,108 +3178,104 @@ HOW IT WORKS
         overflow: hidden;
     }
 
-    #section-how-it-works .feature-list .feature-list-image img#img1{
-        position: relative;
-        width: 50%;
-    }
-    #section-how-it-works .feature-list .feature-list-image img#img2 {
-        position: absolute;
-        top: 11%;
-        left: 27%;
-        width: 45%;
+    #section-specialisations .specialisation-list .specialisation-list-image img{
+        height:100%;
+        width:100%;
+        object-fit:cover;
+        border-radius: 15px;
     }
 
-    #section-how-it-works .feature-list .it-works-tabs{
+    #section-specialisations .specialisation-list .specialisations-tabs{
         width: 100%;
         float: left;
         padding-left: 1%;
         margin-left: 0px !important;
     }
 
-    #section-how-it-works .feature-list .it-works-tabs .nav-tabs li{
+    #section-specialisations .specialisation-list .specialisations-tabs .nav-tabs li{
         left: 0%;
         padding-right: 0%;
     }
 
-    #section-how-it-works .it-works-tabs ul li{
+    #section-specialisations .specialisations-tabs ul li{
      color: #333;
     }
 
-    #section-how-it-works .it-works-tabs ul li.active{
+    #section-specialisations .specialisations-tabs ul li.active{
         color: #0db4fa;
     }
-    #section-how-it-works .it-works-tabs ul li .icon{
+    #section-specialisations .specialisations-tabs ul li .icon{
         margin: auto;
     }
 
-    #section-how-it-works .it-works-tabs ul li>div{
+    #section-specialisations .specialisations-tabs ul li>div{
         width: 50%;
     }
 
-    #section-how-it-works .it-works-tabs ul li>div .icon{
+    #section-specialisations .specialisations-tabs ul li>div .icon{
         width: 24px;
         height: 22px;
     }
-    #section-how-it-works .it-works-tabs ul li .text{
+    #section-specialisations .specialisations-tabs ul li .text{
         padding-top: 10%;
     }
 
-    #section-how-it-works .it-works-tabs ul>li a{
+    #section-specialisations .specialisations-tabs ul>li a{
         color: #333;
         padding: 3px 9px;
     }
-    #section-how-it-works .it-works-tabs ul>li.active a, #section-how-it-works .it-works-tabs ul>li:hover{
+    #section-specialisations .specialisations-tabs ul>li.active a, #section-specialisations .specialisations-tabs ul>li:hover{
         color: #0db4fa;
     }
 
-    #section-how-it-works .it-works-tabs ul li.active .signup .icon, #section-how-it-works .it-works-tabs ul li:hover .signup .icon {
+    #section-specialisations .specialisations-tabs ul li.active .signup .icon, #section-specialisations .specialisations-tabs ul li:hover .signup .icon {
         background-image: url("../img/how-weyv-works/sign-up-active.png");
         background-repeat: no-repeat;
     }
 
-    #section-how-it-works .it-works-tabs #weyvtabContent div{
+    #section-specialisations .specialisations-tabs #hospitaltabContent div{
         padding-top: 25px;
         width: 100%;
     }
-    #section-how-it-works .it-works-tabs #weyvtabContent div p{
+    #section-specialisations .specialisations-tabs #hospitaltabContent div p{
         padding: 0%;
         margin-bottom: 2%;
     }
 
-    #section-how-it-works .it-works-tabs #weyvtabContent .head1{
+    #section-specialisations .specialisations-tabs #hospitaltabContent .head1{
         font-size: 13px;
     }
-    #section-how-it-works .it-works-tabs #weyvtabContent .head2{
+    #section-specialisations .specialisations-tabs #hospitaltabContent .head2{
         font-size: 13px;
     }
 
-    #section-how-it-works .feature-list .features{
+    #section-specialisations .specialisation-list .features{
         height: auto;
     }
-    #section-how-it-works .feature-list-right .feature-list-detail{
+    #section-specialisations .specialisation-list-right .feature-list-detail{
         text-align: center;
         float: none;
         margin: auto;
     }
 
-    #section-how-it-works .feature-list-left .feature-list-detail{
+    #section-specialisations .specialisation-list-left .feature-list-detail{
         text-align: center;
         margin: auto;
     }
 
 
-    #section-how-it-works .header-title h3{
+    #section-specialisations .header-title h3{
         text-align: center;
         font-size: 16px;
         margin:0px;
         line-height: 20px;
     }
 
-    #section-how-it-works .feature-list-detail{
+    #section-specialisations .specialisation-list-detail{
         min-width: 100%;
     }
 
-    #section-how-it-works .feature-list-detail h3{
+    #section-specialisations .specialisation-list-detail h3{
         font-size: 35px;
         letter-spacing: 1px;
         color:#0db4fa;
@@ -3314,7 +3284,7 @@ HOW IT WORKS
         min-width: 100%;
     }
 
-    #section-how-it-works .feature-list-detail p{
+    #section-specialisations .specialisation-list-detail p{
         font-size: 15px;
         letter-spacing: 1px;
         color:#333333;
@@ -3341,207 +3311,261 @@ HOW IT WORKS
 
 @media only screen and (max-width: 300px){
 
-    #section-how-it-works .feature-list .it-works-tabs{
+    #section-specialisations .specialisation-list .specialisations-tabs{
         padding-top: 4%;
     }
 
-    #section-how-it-works .feature-list .it-works-tabs .nav-tabs li {
+    #section-specialisations .specialisation-list .specialisations-tabs .nav-tabs li {
         left: 0%;
         padding-right: 0%;
     }
-    #section-how-it-works .feature-list .it-works-tabs .nav-tabs{
+    #section-specialisations .specialisation-list .specialisations-tabs .nav-tabs{
         padding-right: 0%;
         padding-left: 0%;
     }
-    #section-how-it-works .feature-list .feature-list-image{
+    #section-specialisations .specialisation-list .specialisation-list-image{
         height: 195px;
     }
+    #section-specialisations .specialisation-list .specialisation-list-image img{
+        height:100%;
+        width:100%;
+        object-fit:cover;
+        border-radius: 15px;
+    }
 
-    #section-how-it-works .feature-list .it-works-tabs{
+    #section-specialisations .specialisation-list .specialisations-tabs{
         margin-top: 4%;
     }
 }
 @media only screen and (max-width: 327px) and (min-width: 301px) {
-    #section-how-it-works .feature-list .it-works-tabs .nav-tabs li {
+    #section-specialisations .specialisation-list .specialisations-tabs .nav-tabs li {
         left: 0%;
         padding-right: 1%;
     }
 
-    #section-how-it-works .feature-list .it-works-tabs .nav-tabs{
+    #section-specialisations .specialisation-list .specialisations-tabs .nav-tabs{
         width: 100%;
         margin: auto;
         padding: 7% 0% 0% 0%;
     }
-    #section-how-it-works .feature-list .feature-list-image{
+    #section-specialisations .specialisation-list .specialisation-list-image{
         height: 230px;
     }
-    #section-how-it-works .it-works-tabs ul>li a, #section-how-it-works .it-works-tabs #weyvtabContent .head1,#section-how-it-works .it-works-tabs #weyvtabContent .head2{
+    #section-specialisations .specialisation-list .specialisation-list-image img{
+        height:100%;
+        width:100%;
+        object-fit:cover;
+        border-radius: 15px;
+    }
+    #section-specialisations .specialisations-tabs ul>li a, #section-specialisations .specialisations-tabs #hospitaltabContent .head1,#section-specialisations .specialisations-tabs #hospitaltabContent .head2{
         font-size: 8px;
     }
 }
 
 @media only screen and (max-width: 377px) and (min-width: 328px) {
-    #section-how-it-works .feature-list .it-works-tabs .nav-tabs li {
+    #section-specialisations .specialisation-list .specialisations-tabs .nav-tabs li {
         left: 0%;
         padding-right: 2%;
     }
 
-    #section-how-it-works .feature-list .it-works-tabs .nav-tabs{
+    #section-specialisations .specialisation-list .specialisations-tabs .nav-tabs{
         width: 100%;
         margin: auto;
         padding: 7% 0% 0% 0%;
     }
 
-    #section-how-it-works .feature-list .feature-list-image{
+    #section-specialisations .specialisation-list .specialisation-list-image{
         height: 230px;
     }
+    #section-specialisations .specialisation-list .specialisation-list-image img{
+        height:100%;
+        width:100%;
+        object-fit:cover;
+        border-radius: 15px;
+    }
 
-    #section-how-it-works .feature-list .it-works-tabs{
+    #section-specialisations .specialisation-list .specialisations-tabs{
         margin-top: 4%;
     }
-    #section-how-it-works .it-works-tabs ul>li a, #section-how-it-works .it-works-tabs #weyvtabContent .head1,#section-how-it-works .it-works-tabs #weyvtabContent .head2{
+    #section-specialisations .specialisations-tabs ul>li a, #section-specialisations .specialisations-tabs #hospitaltabContent .head1,#section-specialisations .specialisations-tabs #hospitaltabContent .head2{
         font-size: 9px;
     }
 }
 
 @media only screen and (max-width: 420px) and (min-width: 378px) {
-    #section-how-it-works .feature-list .it-works-tabs .nav-tabs{
+    #section-specialisations .specialisation-list .specialisations-tabs .nav-tabs{
         padding-right: 2%;
         padding-left: 2%;
     }
-    #section-how-it-works .feature-list .it-works-tabs .nav-tabs li {
+    #section-specialisations .specialisation-list .specialisations-tabs .nav-tabs li {
         left: 0%;
         padding-right: 4%;
     }
 
-    #section-how-it-works .feature-list .feature-list-image{
+    #section-specialisations .specialisation-list .specialisation-list-image{
         height: 260px;
     }
+    #section-specialisations .specialisation-list .specialisation-list-image img{
+        height:100%;
+        width:100%;
+        object-fit:cover;
+        border-radius: 15px;
+    }
 
-    #section-how-it-works .feature-list .it-works-tabs{
+    #section-specialisations .specialisation-list .specialisations-tabs{
         margin-top: 4%;
     }
-    #section-how-it-works .it-works-tabs ul>li a, #section-how-it-works .it-works-tabs #weyvtabContent .head1,#section-how-it-works .it-works-tabs #weyvtabContent .head2{
+    #section-specialisations .specialisations-tabs ul>li a, #section-specialisations .specialisations-tabs #hospitaltabContent .head1,#section-specialisations .specialisations-tabs #hospitaltabContent .head2{
         font-size: 8px;
     }
 }
 @media only screen and (max-width: 471px) and (min-width: 421px) {
-    #section-how-it-works .feature-list .it-works-tabs .nav-tabs{
+    #section-specialisations .specialisation-list .specialisations-tabs .nav-tabs{
         padding-right: 2%;
         padding-left: 2%;
     }
-    #section-how-it-works .feature-list .it-works-tabs .nav-tabs li {
+    #section-specialisations .specialisation-list .specialisations-tabs .nav-tabs li {
         left: 0%;
         padding-right: 4%;
     }
 
-    #section-how-it-works .feature-list .feature-list-image{
+    #section-specialisations .specialisation-list .specialisation-list-image{
         height: 290px;
         width: 100%;
         float: left;
     }
+    #section-specialisations .specialisation-list .specialisation-list-image img{
+        height:100%;
+        width:100%;
+        object-fit:cover;
+        border-radius: 15px;
+    }
 
-    #section-how-it-works .feature-list .it-works-tabs{
+    #section-specialisations .specialisation-list .specialisations-tabs{
         margin-top: 4%;
     }
-    #section-how-it-works .it-works-tabs ul>li a, #section-how-it-works .it-works-tabs #weyvtabContent .head1,#section-how-it-works .it-works-tabs #weyvtabContent .head2{
+    #section-specialisations .specialisations-tabs ul>li a, #section-specialisations .specialisations-tabs #hospitaltabContent .head1,#section-specialisations .specialisations-tabs #hospitaltabContent .head2{
         font-size: 10px;
     }
 }
 @media only screen and (max-width: 500px) and (min-width: 472px) {
-    #section-how-it-works .feature-list .it-works-tabs .nav-tabs{
+    #section-specialisations .specialisation-list .specialisations-tabs .nav-tabs{
         padding-right: 2%;
         padding-left: 2%;
     }
-    #section-how-it-works .feature-list .it-works-tabs .nav-tabs li {
+    #section-specialisations .specialisation-list .specialisations-tabs .nav-tabs li {
         left: 0%;
         padding-right: 4%;
     }
 
-    #section-how-it-works .feature-list .feature-list-image{
+    #section-specialisations .specialisation-list .specialisation-list-image{
         height: 290px;
         width: 90%;
         float: none;
     }
+    #section-specialisations .specialisation-list .specialisation-list-image img{
+        height:100%;
+        width:100%;
+        object-fit:cover;
+        border-radius: 15px;
+    }
 
-    #section-how-it-works .feature-list .it-works-tabs{
+    #section-specialisations .specialisation-list .specialisations-tabs{
         margin-top: 4%;
     }
-    #section-how-it-works .it-works-tabs ul>li a, #section-how-it-works .it-works-tabs #weyvtabContent .head1,#section-how-it-works .it-works-tabs #weyvtabContent .head2{
+    #section-specialisations .specialisations-tabs ul>li a, #section-specialisations .specialisations-tabs #hospitaltabContent .head1,#section-specialisations .specialisations-tabs #hospitaltabContent .head2{
         font-size: 10px;
     }
 }
 
 @media only screen and (max-width: 625px) and (min-width: 501px) {
-    #section-how-it-works .feature-list .it-works-tabs .nav-tabs{
+    #section-specialisations .specialisation-list .specialisations-tabs .nav-tabs{
         padding-right: 2%;
         padding-left: 2%;
     }
-    #section-how-it-works .feature-list .it-works-tabs .nav-tabs li {
+    #section-specialisations .specialisation-list .specialisations-tabs .nav-tabs li {
         left: 0%;
         padding-right: 4%;
     }
 
-    #section-how-it-works .feature-list .feature-list-image{
+    #section-specialisations .specialisation-list .specialisation-list-image{
         height: 290px;
         width: 80%;
         float: none;
     }
+    #section-specialisations .specialisation-list .specialisation-list-image img{
+        height:100%;
+        width:100%;
+        object-fit:cover;
+        border-radius: 15px;
+    }
 
-    #section-how-it-works .feature-list .it-works-tabs{
+    #section-specialisations .specialisation-list .specialisations-tabs{
         margin-top: 4%;
     }
-    #section-how-it-works .it-works-tabs ul>li a, #section-how-it-works .it-works-tabs #weyvtabContent .head1,#section-how-it-works .it-works-tabs #weyvtabContent .head2{
+    #section-specialisations .specialisations-tabs ul>li a, #section-specialisations .specialisations-tabs #hospitaltabContent .head1,#section-specialisations .specialisations-tabs #hospitaltabContent .head2{
         font-size: 10px;
     }
 
 }
 
 @media only screen and (max-width: 680px) and (min-width: 626px) {
-    #section-how-it-works .feature-list .it-works-tabs .nav-tabs{
+    #section-specialisations .specialisation-list .specialisations-tabs .nav-tabs{
         padding-right: 2%;
         padding-left: 2%;
     }
-    #section-how-it-works .feature-list .it-works-tabs .nav-tabs li {
+    #section-specialisations .specialisation-list .specialisations-tabs .nav-tabs li {
         left: 0%;
         padding-right: 4%;
     }
 
-    #section-how-it-works .feature-list .feature-list-image{
+    #section-specialisations .specialisation-list .specialisation-list-image{
         height: 290px;
         width: 70%;
         float: none;
     }
+    #section-specialisations .specialisation-list .specialisation-list-image img{
+        height:100%;
+        width:100%;
+        object-fit:cover;
+        border-radius: 15px;
+    }
 
-    #section-how-it-works .feature-list .it-works-tabs{
+    #section-specialisations .specialisation-list .specialisations-tabs{
         margin-top: 4%;
     }
-    #section-how-it-works .feature-list .it-works-tabs .nav-tabs li{
+    #section-specialisations .specialisation-list .specialisations-tabs .nav-tabs li{
         padding-right: 8%;
     }
 }
 
 @media only screen and (max-width: 767px) and (min-width: 681px) {
-    #section-how-it-works .feature-list .it-works-tabs .nav-tabs{
+    #section-specialisations .specialisation-list .specialisations-tabs .nav-tabs{
         padding-right: 2%;
         padding-left: 2%;
     }
-    #section-how-it-works .feature-list .it-works-tabs .nav-tabs li {
+    #section-specialisations .specialisation-list .specialisations-tabs .nav-tabs li {
         left: 0%;
         padding-right: 4%;
     }
 
-    #section-how-it-works .feature-list .feature-list-image{
+    #section-specialisations .specialisation-list .specialisation-list-image{
         height: 290px;
         width: 60%;
         float: none;
     }
+    #section-specialisations .specialisation-list .specialisation-list-image img{
+        height:100%;
+        width:100%;
+        object-fit:cover;
+        border-radius: 15px;
+    }
 
-    #section-how-it-works .feature-list .it-works-tabs{
+    #section-specialisations .specialisation-list .specialisations-tabs{
         margin-top: 4%;
     }
 
-    #section-how-it-works .feature-list .it-works-tabs .nav-tabs li{
+    #section-specialisations .specialisation-list .specialisations-tabs .nav-tabs li{
         padding-right: 8%;
     }
 }
@@ -3591,12 +3615,18 @@ HOW IT WORKS
 
 @media only screen and (max-width: 900px) and (min-width: 768px) {
 
-    #section-how-it-works .feature-list .feature-list-image{
+    #section-specialisations .specialisation-list .specialisation-list-image{
         height: 390px;
         width: 30%;
         margin-right: 2%;
     }
-    #section-how-it-works .it-works-tabs #weyvtabContent div{
+    #section-specialisations .specialisation-list .specialisation-list-image img{
+        height:100%;
+        width:100%;
+        object-fit:cover;
+        border-radius: 15px;
+    }
+    #section-specialisations .specialisations-tabs #hospitaltabContent div{
         padding-top: 20px;
     }
     #section-feature .feature-4 .share-experience .image-container{
@@ -3607,7 +3637,7 @@ HOW IT WORKS
 @media only screen and (max-width: 1080px) and (min-width: 901px) {
 
 
-    #section-how-it-works .it-works-tabs #weyvtabContent div{
+    #section-specialisations .specialisations-tabs #hospitaltabContent div{
         padding-top: 20px;
     }
     #section-feature .feature-4 .share-experience .image-container{
@@ -3617,11 +3647,11 @@ HOW IT WORKS
 @media only screen and (max-width: 1280px) and (min-width: 1081px) {
 
 
-    #section-how-it-works .it-works-tabs #weyvtabContent div{
+    #section-specialisations .specialisations-tabs #hospitaltabContent div{
         padding-top: 20px;
     }
 
-    #section-how-it-works .it-works-tabs ul li{
+    #section-specialisations .specialisations-tabs ul li{
         padding-right: 40px;
     }
 
@@ -3635,11 +3665,11 @@ HOW IT WORKS
 @media only screen and (max-width: 1464px) and (min-width: 1281px) {
 
 
-    #section-how-it-works .it-works-tabs #weyvtabContent div{
+    #section-specialisations .specialisations-tabs #hospitaltabContent div{
         padding-top: 20px;
     }
 
-    #section-how-it-works .it-works-tabs ul li{
+    #section-specialisations .specialisations-tabs ul li{
         padding-right: 40px;
     }
     #section-feature .feature-4 .share-experience .image-container{
@@ -4523,7 +4553,7 @@ About
     margin-top: 100px;
     max-width: 800px;
 }
-.download-media-kit .modal-content .weyv-modal {
+.download-media-kit .modal-content .hospital-modal {
     max-width: 800px;
 }
 .download-media-kit .modal-content .modal-header {
