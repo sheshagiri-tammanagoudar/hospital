@@ -7,7 +7,7 @@
     var clientWebModule = angular.module('hospital.common.hospital-transparency',[]);
     clientWebModule.directive('hospitalTransparency',['$location','$anchorScroll','$log','$window','$rootScope',function($location,$anchorScroll,$log,$window,$rootScope) {
 
-        var routeEligibleForUnderlineStyle = ['/','/about','/contact'];
+        var routeEligibleForUnderlineStyle = ['/','/about','/contact','/press-release'];
         function showUnderlineOverActiveLink(selectedActiveElement){
             if((!(selectedActiveElement === 'none')) && (!angular.isUndefined(selectedActiveElement))){
                 if(routeEligibleForUnderlineStyle.indexOf($location.path()) >= 0){
