@@ -1,6 +1,6 @@
 <section id="section-about" ontouchstart="" ng-controller="AboutUsController"><!--Fix for Safari :active in meet team animation-->
 <div class="container-fluid">
-<div class="row feature-1">
+<div class="row feature-1" style="background-image: url('/common/assets/img/{{backgroundImage}}')">
     <div class="layer-about">
     <div class="row heading-container wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
         <h2 id="ta-ourStory" >
@@ -50,7 +50,7 @@
                 <div class="item active" ng-swipe-left="swipeleft($event, true)" data-slideno="0">
                     <div class="row slide-details">
                         <div class="team-headshot text-center" ng-repeat="member in team1">
-                            <div class="ch-item ch-img-{{member.index}}">
+                            <div class="ch-item ch-img" style="background-image: url('/common/assets/img/about/{{member.image}}')">
                                 <div class="ch-info">
                                     <h3>FAVORITE SONG</h3>
                                     <p>{{member.song}}</p>
@@ -68,7 +68,7 @@
                 <div class="item" ng-swipe-right="swiperight($event, true)" data-slideno="1">
                     <div class="row slide-details">
                         <div class="team-headshot text-center" ng-repeat="member in team2">
-                            <div class="ch-item ch-img-{{member.index}}">
+                            <div class="ch-item ch-img" style="background-image: url('/common/assets/img/about/{{member.image}}')">
                                 <div class="ch-info">
                                     <h3>FAVORITE SONG</h3>
                                     <p>{{member.song}}</p>
@@ -86,7 +86,7 @@
                 <div class="item" ng-swipe-right="swiperight($event, true)" data-slideno="2">
                     <div class="col-sm-24 slide-details">
                         <div class="team-headshot text-center" ng-repeat="member in team3">
-                            <div class="ch-item ch-img-{{member.index}}">
+                            <div class="ch-item ch-img" style="background-image: url('/common/assets/img/about/{{member.image}}')">
                                 <div class="ch-info">
                                     <h3>FAVORITE SONG</h3>
                                     <p>{{member.song}}</p>

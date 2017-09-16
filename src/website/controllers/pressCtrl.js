@@ -7,7 +7,10 @@
 
     var clientWebModule = angular.module('hospital-client-web');
     clientWebModule.controller('PressController',['$scope','$rootScope','$location','$modal','$http',function($scope,$rootScope,$location,$modal,$http){
-
+        $http.get("/common/data/press.json")
+            .success(function(data) {
+                $scope.backgroundImage = data.backgroundImage;
+            });
     }])
 
 })()

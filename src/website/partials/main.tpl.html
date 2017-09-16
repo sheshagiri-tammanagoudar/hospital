@@ -3,30 +3,16 @@
     <section id="slider"  class="parallax" data-stellar-background-ratio="0.5">
         <div class="row">
             <div class="col-sm-24 wow fadeIn animated"  id="section-main" style="padding:0px;">
-
                 <!-- Bootstrap Carousel -->
                 <div id="myCarousel" class="carousel slide carousel-fade" hospital-interval="3000" data-ride="carousel" hospital-carousel ng-swipe-right="swiperight($event, true)"  ng-swipe-left="swipeleft($event, true)">
 
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
-                        <div class="item active image1" data-slideno="0">
+                        <div ng-repeat="image in heroImages" class="item {{$index==0?'active':''}} image" style="background-image:url('/common/assets/img/homeHero/{{image}}');" data-slideno="0">
                             <div class="layer">
                                 <div class="carousel-inner-overlay"></div>
                             </div>
                         </div>
-
-                        <div class="item image2" data-slideno="1">
-                            <div class="layer">
-                                <div class="carousel-inner-overlay"></div>
-                            </div>
-                        </div>
-
-                        <div class="item image3" data-slideno="2">
-                            <div class="layer">
-                                <div class="carousel-inner-overlay"></div>
-                            </div>
-                        </div>
-
                     </div>
                     <div>
                         <div class="col-xs-24 overlay text-center home-line" style="left: 0px;">
@@ -42,7 +28,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
                 <!-- End of Bootstrap Carousel -->
             </div>

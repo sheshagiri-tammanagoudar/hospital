@@ -15,6 +15,7 @@
         }
         $http.get("/common/data/about.json")
             .success(function(data) {
+                $scope.backgroundImage = data.backgroundImage;
                 $scope.introduction = data.introduction;
                 $scope.subHeadings = data.subHeadings;
                 $scope.locations = data.locations;

@@ -9,6 +9,7 @@
             .success(function(data) {
                 $rootScope.hospitalName = data.hospitalName;
                 $rootScope.hospitalTagLine = data.hospitalTagLine;
+                $rootScope.hospitalLogo = data.hospitalLogo;
             });
 
         $scope.jumpToAnchor = function($event,id) {

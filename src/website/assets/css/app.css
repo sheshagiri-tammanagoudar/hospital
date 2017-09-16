@@ -971,33 +971,10 @@ Slider
     border: none;
     top: 50%;
 }
-#section-main .carousel-inner > .item.image1{
+#section-main .carousel-inner > .item.image{
     overflow: hidden;
     background-size: cover;
     background-position: center;
-    background-image:url("../img/hero1.jpg");
-
-}
-#section-main .carousel-inner > .item.image2{
-    overflow: hidden;
-    background-size: cover;
-    background-position: center;
-    background-image:url("../img/hero2.jpg");
-
-}
-#section-main .carousel-inner > .item.image3{
-    overflow: hidden;
-    background-size: cover;
-    background-position: center;
-    background-image:url("../img/hero3.jpg");
-
-}
-
-#section-main .carousel-inner > .item.image4{
-    overflow: hidden;
-    background-size: cover;
-    background-position: center;
-    background-image:url("../img/web_hero_image4.jpg");
 
 }
 /* fade on slider */
@@ -4419,134 +4396,9 @@ About
     text-align: center;
 }
 
-.ch-img-1 {
-    background: url(../../assets/img/team/stephanie.png) center no-repeat;
+.ch-img {
     background-size: cover;
 }
-
-.ch-img-2 {
-    background: url(../../assets/img/team/krista.png) center no-repeat;
-    background-size: cover;
-}
-
-.ch-img-3 {
-    background: url(../../assets/img/team/jen.png) center no-repeat;
-    background-size: cover;
-}
-.ch-img-4 {
-    background: url(../../assets/img/team/sam.png) center no-repeat;
-    background-size: cover;
-}
-
-.ch-img-5 {
-    background: url(../../assets/img/team/manish.png) center no-repeat;
-    background-size: cover;
-}
-
-.ch-img-6 {
-    background: url(../../assets/img/team/scott.png) center no-repeat;
-    background-size: cover;
-}
-
-.ch-img-7 {
-    background: url(../../assets/img/team/brian.png) center no-repeat;
-    background-size: cover;
-}
-.ch-img-8 {
-    background: url(../../assets/img/team/Seb.png) center no-repeat;
-    background-size: cover;
-}
-.ch-img-9 {
-    background: url(../../assets/img/team/Rudreshwar.png) center no-repeat;
-    background-size: cover;
-}
-.ch-img-10 {
-    background: url(../../assets/img/team/Shesha.png) center no-repeat;
-    background-size: cover;
-}
-.ch-img-11 {
-    background: url(../../assets/img/team/Prakash.png) center no-repeat;
-    background-size: cover;
-}
-.ch-img-12 {
-    background: url(../../assets/img/team/Meera.png) center no-repeat;
-    background-size: cover;
-}
-.ch-img-13 {
-    background: url(../../assets/img/team/Suganthi.png) center no-repeat;
-    background-size: cover;
-}
-.ch-img-14 {
-    background: url(../../assets/img/team/Venkat.png) center no-repeat;
-    background-size: cover;
-}
-.ch-img-15 {
-    background: url(../../assets/img/team/Sumit.png) center no-repeat;
-    background-size: cover;
-}
-.ch-img-16 {
-    background: url(../../assets/img/team/ani.png) center no-repeat;
-    background-size: cover;
-}
-.ch-img-17 {
-    background: url(../../assets/img/team/Sridivia.png) center no-repeat;
-    background-size: cover;
-}
-.ch-img-18 {
-    background: url(../../assets/img/team/Govind.png) center no-repeat;
-    background-size: cover;
-}
-.ch-img-19 {
-    background: url(../../assets/img/team/Arunavh.png) center no-repeat;
-    background-size: cover;
-}
-.ch-img-20 {
-    background: url(../../assets/img/team/Ganesh.png) center no-repeat;
-    background-size: cover;
-}
-.ch-img-21 {
-    background: url(../../assets/img/team/Rajeev.png) center no-repeat;
-    background-size: cover;
-}
-.ch-img-22 {
-    background: url(../../assets/img/team/Rahul.png) center no-repeat;
-    background-size: cover;
-}
-.ch-img-23 {
-    background: url(../../assets/img/team/Hemant.png) center no-repeat;
-    background-size: cover;
-}
-.ch-img-24 {
-    background: url(../../assets/img/team/Saranya.png) center no-repeat;
-    background-size: cover;
-}
-.ch-img-25 {
-    background: url(../../assets/img/team/Govardhan.png) center no-repeat;
-    background-size: cover;
-}
-.ch-img-26 {
-    background: url(../../assets/img/team/jim.png) center no-repeat;
-    background-size: cover;
-}
-.ch-img-27 {
-    background: url(../../assets/img/team/trace.png) center no-repeat;
-    background-size: cover;
-}
-.ch-img-28 {
-    background: url(../../assets/img/team/howard.png) center no-repeat;
-    background-size: cover;
-}
-.ch-img-29 {
-    background: url(../../assets/img/team/bill.png) center no-repeat;
-    background-size: cover;
-}
-.ch-img-30 {
-    background: url(../../assets/img/team/jeff.png) center no-repeat;
-    background-size: cover;
-}
-
-
-
 
 .download-media-kit .modal-content {
     width: 750px;
@@ -5343,7 +5195,7 @@ device ipad related configuration
     }
 
     #section-about .feature-1 {
-        background: url(../img/about_our_story_bkgrd_image.jpg) center;
+        background-position: center;
         z-index:3;
     }
 

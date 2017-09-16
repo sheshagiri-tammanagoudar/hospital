@@ -12,6 +12,10 @@
                     $scope.introduction = $scope.introduction;
                     $scope.specialisationslist = data.list;
                 });
+            $http.get("/common/data/home.json")
+                .success(function(data) {
+                    $scope.heroImages = data.heroImages;
+                });
             $scope.swipeleft = function($event, show){
 
                 $("#myCarousel").carousel('next');
