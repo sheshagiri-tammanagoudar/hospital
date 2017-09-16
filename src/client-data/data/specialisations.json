@@ -3,6 +3,7 @@
     "list":[
         {
             "index":"1",
+            "image":"1.jpg",
             "name":"Pregnancy and Child Birth",
             "description":[
                 "We offer best care for carrying mothers.",
@@ -12,12 +13,14 @@
         },
         {
             "index":"2",
+            "image":"2.jpg",
             "name":"General Surgery",
             "description":[
             ]
         },
         {
             "index":"3",
+            "image":"3.jpg",
             "name":"General Physician",
             "description":[
             ]

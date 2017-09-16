@@ -7,12 +7,12 @@
     clientWebModule.controller('MainCtrl',['$scope','$rootScope','$location','$window','$http',
         function ($scope,$rootScope,$location,$window,$http) {
             $scope.specialisationIndex = 1;
-            $http.get("/common/data/specialisations.json")
+            $http.get("/client-data/data/specialisations.json")
                 .success(function(data) {
                     $scope.introduction = $scope.introduction;
                     $scope.specialisationslist = data.list;
                 });
-            $http.get("/common/data/home.json")
+            $http.get("/client-data/data/home.json")
                 .success(function(data) {
                     $scope.heroImages = data.heroImages;
                 });

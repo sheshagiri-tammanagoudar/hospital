@@ -13,7 +13,7 @@
         $scope.swiperight = function($event, show){
             $("#aboutTeamCarousel").carousel('prev');
         }
-        $http.get("/common/data/about.json")
+        $http.get("/client-data/data/about.json")
             .success(function(data) {
                 $scope.backgroundImage = data.backgroundImage;
                 $scope.introduction = data.introduction;

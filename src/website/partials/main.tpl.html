@@ -8,7 +8,7 @@
 
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
-                        <div ng-repeat="image in heroImages" class="item {{$index==0?'active':''}} image" style="background-image:url('/common/assets/img/homeHero/{{image}}');" data-slideno="0">
+                        <div ng-repeat="image in heroImages" class="item {{$index==0?'active':''}} image" style="background-image:url('/client-data/assets/img/homeHero/{{image}}');" data-slideno="0">
                             <div class="layer">
                                 <div class="carousel-inner-overlay"></div>
                             </div>
@@ -49,7 +49,7 @@
                     <div class="row row-eq-height image-container">
                         <!-- FEATURE LIST IMAGE -->
                         <div class="specialisation-list-image text-center" >
-                            <img id="img_specialisation_{{specialisation.index}}" ng-repeat="specialisation in specialisationslist" src="/common/assets/img/specialisations/{{specialisation.index}}.jpg"/>
+                            <img id="img_specialisation_{{specialisation.index}}" ng-repeat="specialisation in specialisationslist" src="/client-data/assets/img/specialisations/{{specialisation.image}}"/>
                         </div><!-- /END FEATURE LIST IMAGE -->
                         <!-- FEATURE LLIST RIGHT -->
                         <div class="specialisations-tabs wow fadeInUp" data-wow-duration="1s">
