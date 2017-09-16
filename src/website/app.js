@@ -32,7 +32,7 @@
                 ,controller:'MainCtrl'
             });
             $routeProvider.when('/terms-and-conditions',{
-                templateUrl:'partials/terms-and-conditions-tpl.html'
+                templateUrl:'partials/terms-and-conditions.tpl.html'
             }).when('/about',{
                 templateUrl:'partials/about.tpl.html'
                 ,resolve:{
@@ -40,16 +40,13 @@
                         $rootScope.$broadcast('initCarousel');
                     }]
                 }
-            }).when('/specialisations',{
-                templateUrl:'partials/main.tpl.html'
-                ,controller:'MainCtrl'
-            }).when('/privacy-policy',{
-                templateUrl:'partials/privacy-policy-tpl.html'
-            }).when('/press-release',{
-                templateUrl:'partials/public/press-releases-tpl.html'
             }).when('/contact',{
-                templateUrl:'partials/public/contact-tpl.html'
-            });
+                templateUrl:'partials/contact.tpl.html'
+            }).when('/privacy-policy',{
+                templateUrl:'partials/privacy-policy.tpl.html'
+            }).when('/press-release',{
+                templateUrl:'partials/press-releases.tpl.html'
+            })
 
             $routeProvider.otherwise({redirectTo: '/'});
         }
