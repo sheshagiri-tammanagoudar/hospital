@@ -10,6 +10,29 @@
                 $rootScope.hospitalName = data.hospitalName;
                 $rootScope.hospitalTagLine = data.hospitalTagLine;
             });
+
+        $scope.jumpToAnchor = function($event,id) {
+            $event.preventDefault();
+            if(id === 'none'){
+                $rootScope.currentSelection = 'none'
+                $location.path('/');
+                $timeout(
+                    function( $scope ) {
+                        $rootScope.$broadcast('showUnderlineOverActiveLink',{'target':id,'from':'/'});
+                    },100
+                );
+            }else if($location.path() === '/'){
+                $rootScope.$broadcast('jQueryAnchorScroll',{'target':id,'from':'/'});
+            }else {
+                $location.path('/');
+                $timeout(
+                    function( $scope ) {
+                        $rootScope.$broadcast('jQueryAnchorScroll',{'target':id});
+                    },1200
+                );
+            }
+        };
+
         $scope.checkcollapsable = function($event)
         {
             if(angular.element('.navbar-collapse').attr('aria-expanded') != "true" )

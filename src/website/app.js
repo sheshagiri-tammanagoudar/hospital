@@ -14,6 +14,7 @@
         ,'ngTouch'
         ,'hospital.common.hospital-scroll'
         ,'hospital.common.hospital-carousel'
+        ,'hospital.common.hospital-transparency'
     ]);
     clientWebModule.config(['$httpProvider'
         ,'$routeProvider'
@@ -36,16 +37,18 @@
                 templateUrl:'partials/about.tpl.html'
                 ,resolve:{
                     initCarousel:['$rootScope',function($rootScope){
-
                         $rootScope.$broadcast('initCarousel');
                     }]
                 }
+            }).when('/specialisations',{
+                templateUrl:'partials/main.tpl.html'
+                ,controller:'MainCtrl'
             }).when('/privacy-policy',{
                 templateUrl:'partials/privacy-policy-tpl.html'
             }).when('/press-release',{
                 templateUrl:'partials/public/press-releases-tpl.html'
             }).when('/contact',{
-                templateUrl:'partials/public/contactus-tpl.html'
+                templateUrl:'partials/public/contact-tpl.html'
             });
 
             $routeProvider.otherwise({redirectTo: '/'});
@@ -59,6 +62,11 @@
         $rootScope.onAppInit = function(){
 
         };
+
+        $rootScope.$on("$locationChangeSuccess", function (current) {
+            $rootScope.currentPage = $location.path();
+            $rootScope.$broadcast('showUnderlineOverActiveLink',{'target':$rootScope.currentPage});
+        });
 
         $rootScope.navigateTo = function (section){
             $(document.body).animate({ scrollTop: $("#"+section).offset().top-90 });

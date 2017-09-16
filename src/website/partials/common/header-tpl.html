@@ -1,4 +1,4 @@
-<header id="navigation" class="navbar navbar-default navbar-fixed-top remove-transparent" data-wow-duration="2s"  transparency  ng-controller="AppLaunchController" weyv-hold>
+<header id="navigation" class="navbar navbar-default navbar-fixed-top remove-transparent" data-wow-duration="2s"  hospital-transparency  ng-controller="AppLaunchController" weyv-hold>
     <div class="navbar-header">
         <span type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" ng-click="checkcollapsable()" >
               <span class="icon-bar"></span>
@@ -12,9 +12,9 @@
     <nav class="navbar-collapse navbar-right collapse" role="navigation">
         <div class="row">
             <ul class="nav navbar-nav">
-                <li><a href="#/specialisations" id="specialisations">SPECIALISATIONS <hr/></a></li>
-                <li><a href="#/about" id="about">ABOUT US <hr/></a></li>
-                <li><a id="#/contact">CONTACT US <hr/></a></li>
+                <li><a href="#/specialisations" ng-click="jumpToAnchor($event,'section-specialisations')" id="specialisations">SPECIALISATIONS <hr/></a></li>
+                <li><a href="#/about" id="about" ng-class="{current:currentPage=='/about'}">ABOUT US <hr/></a></li>
+                <li><a href="#/contact" id="contact" ng-class="{current:currentPage=='/contact'}">CONTACT US <hr/></a></li>
                 <hr class="navbar-underline-animination" />
             </ul>
         </div>
